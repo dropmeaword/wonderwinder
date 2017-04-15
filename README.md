@@ -3,7 +3,7 @@
 OSC to stepper control.
 
 Let's you know it's alive by sending an osc message every 5 seconds:
-/mirror/ack <i:id>
+`/mirror/ack <i:id>`
 
 Where id, is the last number of the steppers IP address in the network, so if the IP is AA.BB.CC.DD, the id of the stepper will be "DD".
 
